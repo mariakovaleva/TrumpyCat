@@ -49,4 +49,3 @@ function prettyJson(str){
 	// If browser does not have JSON utilities, just print the raw string value.
 	return window.JSON ? JSON.stringify(JSON.parse(str), null, '  ') : str;
 }
-
